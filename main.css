@@ -1,0 +1,163 @@
+*{
+
+margin:0;
+
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+body{
+margin-top: 20px;
+
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #343;
+    color: #fff;
+
+
+}
+.container{
+    border-radius: 10px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:px;
+
+
+    text-align: center;
+padding: 20px;
+background-image: linear-gradient(to right, #8360c3, #2ebf91);
+
+}
+body > h2{
+    text-transform: capitalize;
+    padding: 10px;
+
+}
+h1{
+    text-transform: uppercase;
+
+}
+.container h4{
+    text-transform: capitalize;
+
+}
+.exp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.h3{
+    padding-top:10px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+
+}
+.list{
+    list-style: none;
+display: block;
+
+}
+.list li{
+
+background-color: #fff;
+color:#3d0909;
+margin-top:10px;
+text-align: left;
+padding: 5px;
+border-radius: 5px;
+position: relative;
+display: flex ;
+justify-content: space-around;
+
+
+
+}
+#deleted{
+
+background-color: rgb(175, 28, 28);
+
+color: #fff;
+outline: none;
+border: none;
+padding:  5px 6px;
+position: absolute;
+left: -15px;
+top: .5px;
+font-size: 15px;
+cursor: pointer;
+
+
+}
+.list li.miuns{
+
+
+
+    border-right: 5px solid red;
+}
+.list li.blus{
+    border-right: 5px solid green;
+
+}
+h3.add{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+border-bottom: 2px solid #fff;
+text-transform: capitalize;
+
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+input{
+    padding: 8px;
+    outline: none;
+ 
+    border-radius: 5px;
+    margin-bottom: 5px;
+transition: .4s;
+}
+input:focus{
+    outline:  1px solid #432746;
+}
+label{
+    text-transform: capitalize;
+    padding: 3px;
+
+}
+#form button{
+
+cursor: pointer;
+transition: .4s;
+
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 13px;
+    border-radius: 6px;
+    color: #fff;
+    background-image: linear-gradient(to right, #451b92, #1e0606);
+}
+
+
+#form button:focus{
+    transform: scale(.97);
+}
+
+#form button:hover{
+    background-image: linear-gradient(to right, #5a0cec, #aa3b3b);
+}
